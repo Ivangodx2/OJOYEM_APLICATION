@@ -21,9 +21,9 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="80dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="#00FFFFFF"
         android:onClick="inicios"
@@ -108,10 +108,10 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.582" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <TextView
         android:id="@+id/textView5"
@@ -130,17 +130,18 @@
         android:layout_width="72dp"
         android:layout_height="19dp"
         android:text="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintHorizontal_bias="0.259"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.601" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="150dp"
         android:layout_height="48dp"
+        android:onClick="crearcuenta"
         android:text="Nueva Cuenta"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
@@ -166,9 +167,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Acceder"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="23dp"
+        android:fontFamily="sans-serif-black"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

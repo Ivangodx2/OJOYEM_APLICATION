@@ -18,4 +18,9 @@ public class inicio_sesion extends AppCompatActivity {
         Intent siguiente2 = new Intent( this, MainActivity.class);
         startActivity(siguiente2);
     }
+
+    public void crearcuenta(View view){
+        Intent crearc = new Intent( this, crearcuenta_1.class);
+        startActivity(crearc);
+    }
 }
