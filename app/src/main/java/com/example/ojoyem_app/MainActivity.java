@@ -14,7 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void inicios(View view){
-        Intent siguiente = new Intent( this, inicio_sesion.class);
+        Intent siguiente = new Intent( this, acercade_i.class);
         startActivity(siguiente);
+    }
+
+    public void inicio_S(View view){
+        Intent inicios = new Intent( this, inicio_sesion.class);
+        startActivity(inicios);
     }
 }
