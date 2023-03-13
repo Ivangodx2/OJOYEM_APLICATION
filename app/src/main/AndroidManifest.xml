@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Ojoyem_app"
         tools:targetApi="31">
         <activity
+            android:name=".articulos_s_paciente"
+            android:exported="false" />
+        <activity
             android:name=".olvidar_contrasena2"
             android:exported="false" />
         <activity
