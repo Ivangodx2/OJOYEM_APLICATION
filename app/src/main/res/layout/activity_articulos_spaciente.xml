@@ -54,4 +54,82 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/ojo_iconobueno"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00404040"
+        android:text="Artículos"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <FrameLayout
+        android:layout_width="306dp"
+        android:layout_height="288dp"
+        android:background="#D9D9D9"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="193dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="59dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:text="Angiografía"
+            android:textColor="#0C0808"
+            android:textSize="23dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="246dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="40dp"
+            android:text="Dr. Maria Gómez Sánchez"
+            android:textColor="#0C0808"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="288dp"
+            android:layout_height="206dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:text="La angiografía ocular puedes solicitarse por varios motivos, y es muy útil, ya que puede arrojar luz sobre numerosas patologías oculares. Generalmente, se solicita cuando el oftalmólogo sospecha de algún problema en el fondo de ojo. Entre las dolencias que pueden diagnosticarse gracias a esta prueba podemos encontrar."
+            android:textColor="#0C0808"
+            android:textSize="17dp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="280dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:background="#000000" />
+
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
