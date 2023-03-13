@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".crearcuenta2">
+    tools:context=".crearcuenta_cedulaprofe">
+
     <View
         android:id="@+id/view"
         android:layout_width="0dp"
@@ -91,39 +92,28 @@
         android:fontFamily="sans-serif-black"/>
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/editTextTextPersonName3"
         android:layout_width="277dp"
         android:layout_height="32dp"
         android:background="@drawable/brr_is"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="Correo electrónico"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.546" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="277dp"
-        android:layout_height="32dp"
-        android:background="@drawable/brr_is"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="404dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword3"
-        android:layout_width="277dp"
-        android:layout_height="32dp"
-        android:background="@drawable/brr_is"
-        android:ems="10"
-        android:hint="Confirmar contraseña"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="457dp" />
-
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducir cédula profesional"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
