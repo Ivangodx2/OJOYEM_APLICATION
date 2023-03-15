@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="411dp"
+        android:layout_height="75dp"
+        android:background="#3A78D4" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="362dp"
+        android:layout_height="606dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:text="128302155"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="345dp"
+        android:layout_height="164dp"
+        android:background="#D9D9D9"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:text="128302155"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:text="57 años"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="80dp"
+        android:layout_height="33dp"
+        android:text="Hombre"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="167dp"
+        android:layout_height="26dp"
+        android:text="DrJoseIg@gmail.com"
+        android:textColor="#3A78D4"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="53dp"
+        android:layout_height="21dp"
+        android:text="Edad:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="159dp"
+        android:layout_height="29dp"
+        android:text="Correo electrónico:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="72dp"
+        android:layout_height="29dp"
+        android:text="Género:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="163dp"
+        android:layout_height="28dp"
+        android:text="Cédula profesional:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="184dp"
+        android:layout_height="28dp"
+        android:text="Datos del usuario:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:text="Descripción:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="92dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/ojo_iconobueno"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="82dp"
+        android:layout_height="97dp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="110dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="278dp"
+        android:layout_height="26dp"
+        android:text="Dr. Jose Ignacio Campos Ramírez"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="345dp"
+        android:layout_height="140dp"
+        android:background="#D9D9D9"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="290dp"
+        android:layout_height="29dp"
+        android:text="Doctor especializado en los ojos. "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

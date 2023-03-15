@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view17"
+        android:layout_width="413dp"
+        android:layout_height="75dp"
+        android:background="#3A78D4"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <View
+        android:id="@+id/view18"
+        android:layout_width="373dp"
+        android:layout_height="619dp"
+        android:background="#F1F1F1"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="145dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/ojoyem_logo_p"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reportar un error"
+        android:textColor="#3A78D4"
+        android:textSize="30dp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="334dp"
+        android:layout_height="40dp"
+        android:background="@color/blanco"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Titulo"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción:"
+        android:textColor="#050404"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="326dp"
+        android:layout_height="209dp"
+        android:background="@color/blanco"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="391dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
