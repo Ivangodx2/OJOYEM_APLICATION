@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/fondo2"
     android:layout_height="match_parent">
 
     <View
@@ -16,6 +17,7 @@
         android:layout_width="362dp"
         android:layout_height="606dp"
         tools:layout_editor_absoluteX="24dp"
+        android:background="@drawable/style_fondo_gris"
         tools:layout_editor_absoluteY="100dp" />
 
     <TextView
