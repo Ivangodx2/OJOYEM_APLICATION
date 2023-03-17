@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
     tools:context=".articulos_s_paciente">
     <View
         android:id="@+id/view"
@@ -17,28 +18,15 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="65dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="#00FFFFFF"
-        android:onClick="inicios"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/info_imagen" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton4"
         android:layout_width="42dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:backgroundTint="#00FFFFFF"
-        android:onClick="inicios2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow_arrows_48" />
+        app:srcCompat="@drawable/Menu_icon_48" />
 
     <View
         android:id="@+id/view2"

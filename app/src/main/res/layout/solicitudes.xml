@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/fondo2"
     android:layout_height="match_parent">
 
     <TextView
@@ -13,6 +14,8 @@
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="470dp" />
 
+
+
     <View
         android:id="@+id/view19"
         android:layout_width="411dp"
@@ -21,12 +24,30 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-1dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="42dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Menu_icon_48" />
+
     <View
         android:id="@+id/view20"
-        android:layout_width="361dp"
-        android:layout_height="632dp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="83dp" />
+        android:layout_width="362dp"
+        android:layout_height="635dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/style_fondo_gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
 
     <View
         android:id="@+id/view23"
@@ -51,6 +72,7 @@
         app:srcCompat="@drawable/ojoyem_logo_p"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="90dp" />
+
 
     <TextView
         android:id="@+id/textView49"
@@ -153,5 +175,7 @@
         android:text="Ver información"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="472dp" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

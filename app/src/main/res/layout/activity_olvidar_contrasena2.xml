@@ -106,12 +106,38 @@
         android:id="@+id/editTextTextPassword5"
         android:layout_width="273dp"
         android:layout_height="32dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/brr_is"
         android:ems="10"
         android:hint="Confirmar contraseña"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="408dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="132dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="248dp"
+        android:text="Nueva contraseña"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="160dp"
+        android:layout_height="16dp"
+        android:text="Confirmar contraseña"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
