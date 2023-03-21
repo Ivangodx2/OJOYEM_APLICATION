@@ -14,13 +14,18 @@ public class inicio_sesion extends AppCompatActivity {
         setContentView(R.layout.activity_inicio_sesion);
     }
 
-    public void inicios2(View view){
-        Intent siguiente2 = new Intent( this, MainActivity.class);
-        startActivity(siguiente2);
+    public void volver_p(View view){
+        Intent pantalla_p = new Intent( this, MainActivity.class);
+        startActivity(pantalla_p);
     }
 
     public void crearcuenta(View view){
         Intent crearc = new Intent( this, crearcuenta_1.class);
         startActivity(crearc);
+    }
+
+    public void acerca_de(View view){
+        Intent acerca_p = new Intent( this, acercade_i.class);
+        startActivity(acerca_p);
     }
 }

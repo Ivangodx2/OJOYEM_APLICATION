@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent inicios = new Intent( this, inicio_sesion.class);
         startActivity(inicios);
     }
+
+    public void crear_cuenta(View view){
+        Intent crear_c = new Intent( this, crearcuenta_1.class);
+        startActivity(crear_c);
+    }
 }

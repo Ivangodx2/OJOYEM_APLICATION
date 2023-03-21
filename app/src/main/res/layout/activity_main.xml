@@ -53,6 +53,7 @@
         android:layout_marginTop="9dp"
         android:layout_marginBottom="93dp"
         android:gravity="center"
+        android:onClick="crear_cuenta"
         android:text="@string/crearcuent"
         android:textColor="@color/blanco"
         android:textSize="23dp"

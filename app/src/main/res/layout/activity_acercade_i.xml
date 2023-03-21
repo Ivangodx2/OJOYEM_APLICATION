@@ -43,20 +43,21 @@
         android:backgroundTint="@color/blanco"
         android:text="Inicio Sesión"
         android:textColor="#000000"
+        android:onClick="inicio_s"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/regresar"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/regresar"
         android:layout_width="42dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:backgroundTint="#00FFFFFF"
-        android:onClick="inicios2"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_arrows_48" />
@@ -76,13 +77,13 @@
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <ScrollView
-        android:layout_width="318dp"
-        android:layout_height="522dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        android:layout_width="315dp"
+        android:layout_height="559dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.59000003">
+        app:layout_constraintVertical_bias="0.197">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -149,9 +150,8 @@ Si se sospecha la perforación del ojo, la irrigación debe ser diferida hasta q
                     android:id="@+id/imageView2"
                     android:layout_width="75dp"
                     android:layout_height="61dp"
-                    tools:srcCompat="@tools:sample/avatars"
                     android:layout_marginTop="25dp"
-                    />
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
                     android:id="@+id/textView10"

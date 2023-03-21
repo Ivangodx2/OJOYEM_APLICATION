@@ -33,7 +33,7 @@
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Menu_icon_48" />
+        app:srcCompat="@drawable/arrow_left" />
 
     <View
         android:id="@+id/view20"
