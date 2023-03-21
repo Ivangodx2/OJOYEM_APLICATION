@@ -28,4 +28,9 @@ public class inicio_sesion extends AppCompatActivity {
         Intent acerca_p = new Intent( this, acercade_i.class);
         startActivity(acerca_p);
     }
+
+    public void articulos_p(View view){
+        Intent articulo_p = new Intent( this, articulos_s_paciente.class);
+        startActivity(articulo_p);
+    }
 }
