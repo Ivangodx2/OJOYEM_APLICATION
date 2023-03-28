@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".articulos_s_paciente">
+    tools:context=".paciente_resultados_escaner">
 
     <View
         android:id="@+id/view"
@@ -17,21 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="337dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="15dp"
-        android:background="@drawable/style_fondo_gris"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -78,42 +63,57 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/menu_icon_46" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="88dp"
-        android:layout_height="70dp"
-        app:layout_constraintBottom_toTopOf="@+id/lista_a"
-        app:layout_constraintEnd_toStartOf="@+id/textView13"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        app:srcCompat="@drawable/ojo_iconobueno" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00404040"
-        android:text="Artículos"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintBottom_toTopOf="@+id/lista_a"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
-
-    <ListView
-        android:id="@+id/lista_a"
-        android:layout_width="315dp"
-        android:layout_height="515dp"
+    <View
+        android:id="@+id/view2"
+        android:layout_width="337dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/style_fondo_gris"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.78">
+        app:layout_constraintVertical_bias="1.0" />
 
+    <ListView
+        android:layout_width="307dp"
+        android:layout_height="515dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.121" />
 
-    </ListView>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="52dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descargar"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#6200ED"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/share_32"
+        tools:layout_editor_absoluteY="659dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

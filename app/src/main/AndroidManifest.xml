@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Ojoyem_app"
         tools:targetApi="31">
         <activity
+            android:name=".buscar_especialista_lista"
+            android:exported="false" />
+        <activity
+            android:name=".paciente_resultados_escaner"
+            android:exported="false" />
+        <activity
             android:name=".articulos_pacientes"
             android:exported="false" />
         <activity

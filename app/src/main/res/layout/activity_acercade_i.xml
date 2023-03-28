@@ -160,7 +160,7 @@ Si se sospecha la perforación del ojo, la irrigación debe ser diferida hasta q
                     android:layout_marginLeft="75dp"
                     android:layout_marginTop="25dp"
                     android:text="Líder de proyecto
-Luca Carretero Bosch" />
+                    Luca Carretero Bosch" />
 
             </FrameLayout>
 
